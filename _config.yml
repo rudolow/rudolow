@@ -1,0 +1,25 @@
+title:              "rudolow"
+tagline:            "캐릭터 리뷰하기"
+email:              "csbmb@gmail.com"
+description:        "캐릭터를 리뷰하는 블로그입니다."
+author:             "rudolow"
+baseurl:            "/"
+url:                "https://rudolw.com"
+locale:             "ko_KR"
+thumbnail:          "/img/thumbnail.jpg"
+
+# Social Profiles
+twitter_username:   twitter_username
+instagram_username: instagram_username
+facebook_username:  facebook_username
+linkedin_username:  linkedin_username
+
+# Build settings
+markdown:           kramdown
+permalink:          /:title
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
